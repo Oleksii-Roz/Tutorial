@@ -1,0 +1,16 @@
+body {
+	font-family: Raleway;
+	font-weight: 700;
+}
+
+.link {
+	text-decoration: none;
+}
+
+[href$="html"] {
+	color: green;
+}
+
+[href$="css"] {
+	color: orangered;
+}
