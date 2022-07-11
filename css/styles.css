@@ -1,4 +1,4 @@
-body {
+/* body {
 	font-family: Raleway;
 	font-weight: 700;
 }
@@ -13,4 +13,33 @@ body {
 
 [href$="css"] {
 	color: orangered;
+} */
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+.btn {
+	display: inline-block;
+	padding: 20px 40px;
+	border: 2px solid green;
+	border-radius: 4px;
+	color: white;
+	background-color: tomato;
+	text-decoration: none;
+}
+
+.btn-icon {
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	margin-right: 6px;
+	background-color: skyblue;
+	vertical-align: bottom;
 }
