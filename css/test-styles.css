@@ -10,17 +10,10 @@ ul {
 	padding: 0;
 }
 
-.box {
-	width: 200px;
-	height: 100px;
-}
+.container {
+	width: 1170px;
+	margin: 0 auto;
+	padding: 0 15px;
 
-.top {
-	margin-bottom: 20px;
-	background-color: teal;
-}
-
-.bottom {
-	margin-top: 40px;
-	background-color: palevioletred;
+	outline: 2px solid tomato;
 }
